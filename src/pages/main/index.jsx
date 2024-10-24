@@ -16,7 +16,7 @@ export const Main = () => {
         {
           title: 'Dex',
           img: '/dex.svg',
-          url: ''
+          url: 'https://dexscreener.com/solana/8vx3iywx4xk1unjnqwcktctzjffxwfs9uiyon6ysetpk'
         }
       ]
     
@@ -24,7 +24,7 @@ export const Main = () => {
         <div className="relative main h-screen w-screen overflow-hidden">
             <div className="py-[18px] px-[32px] flex items-center justify-between sm:flex-col sm:justify-center sm:space-y-[20px] fixed top-0 left-1/2 -translate-x-1/2 max-w-[1200px] sm:max-w-full w-full">
                 <img className="max-h-[40px] h-full" src="/logo.svg" alt="" />
-                <a href="/" target="_blank" className="bg-[#7DF19C] border border-solid border-white rounded-[12px] shadow-md h-[64px] sm:h-[48px] w-[202px] flex items-center justify-center">
+                <a href="https://raydium.io/swap/?outputCurrency=s9dBr5LK2QAHxEQgYaciWxqbdtAy2rbLRHv3xWhpump&inputMint=sol&outputMint=s9dBr5LK2QAHxEQgYaciWxqbdtAy2rbLRHv3xWhpump" target="_blank" className="bg-[#7DF19C] border border-solid border-white rounded-[12px] shadow-md h-[64px] sm:h-[48px] w-[202px] flex items-center justify-center" rel="noreferrer">
                     <img src="/buyToken.svg" alt="" />
                 </a>
             </div>
@@ -32,7 +32,7 @@ export const Main = () => {
                 {socials.map((item, itemIndex) => {
                     if (item.url) {
                         return (
-                            <a href={item.url} target="_blank" className="flex items-center justify-center" key={itemIndex}>
+                            <a href={item.url} target="_blank" className="flex items-center justify-center" key={itemIndex} rel="noreferrer">
                                 <img className="h-[48px] w-[48px] " src={item.img} alt="" />
                                 <span className="text-white text-[24px] font-light ml-[12px] sm:hidden">{item.title}</span>
                             </a>
