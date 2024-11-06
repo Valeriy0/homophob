@@ -31,16 +31,16 @@ export const Main = () => {
             isCopied: true,
         },
         {
-            title: 'Contact Address',
+            title: 'Total Supply',
             value: '0'
         },
         {
             title: 'TAX',
-            value: '0'
+            value: '0%'
         },
         {
             title: 'Liquidity Pool',
-            value: '0'
+            value: 'BURN'
         },
       ]
 
@@ -74,7 +74,7 @@ export const Main = () => {
     return (
         <div className="flex flex-col items-center justify-start">
             <div className="relative main min-h-screen w-screen flex items-center justify-center">
-                <div className="py-[18px] px-[32px] flex items-center justify-end sm:flex-col sm:justify-center sm:space-y-[20px] fixed top-0 left-1/2 -translate-x-1/2 max-w-[1200px] sm:max-w-full w-full">
+                <div className="z-[10] py-[18px] px-[32px] flex items-center justify-end sm:flex-col sm:justify-center sm:space-y-[20px] fixed top-0 left-1/2 -translate-x-1/2 max-w-[1200px] sm:max-w-full w-full">
                     {buyLinkRender()}
                 </div>
                 <img className="max-h-[620px] h-[57vh] sm:max-h-[280px]" src="/img/token.webp" alt="" />
