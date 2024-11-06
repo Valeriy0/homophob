@@ -81,14 +81,14 @@ export const Main = () => {
                 {renderSocial('bottom-[40px] sm:bottom-[24px]')}
             </div>
 
-            <Marquee className="!flex h-[100px]" gradient gradientColor="#000" gradientWidth={50} autoFill>
-                <div className="flex space-x-[24px] items-center uppercase text-[32px] text-white">
+            <Marquee className="!flex h-[100px] bg-[#000]" gradient gradientColor="#000" gradientWidth={50} autoFill>
+                <div className="flex space-x-[24px] items-center uppercase text-[32px] text-white mx-[12px]">
                     <div className="flex space-x-[24px] items-center ">
-                        <img className="h-[74px]" src="/img/solana.webp" alt="" />
+                        <img className="h-[74px] rounded-full" src="/img/solana.webp" alt="" />
                         <span>make solana great again</span>
                     </div>
                     <div className="flex space-x-[24px] items-center">
-                        <img className="h-[74px]" src="/img/tiker.webp" alt="" />
+                        <img className="h-[74px] rounded-full" src="/img/tiker.webp" alt="" />
                         <span>MSGA</span>
                     </div>
                 </div>
