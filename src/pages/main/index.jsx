@@ -94,7 +94,7 @@ export const Main = () => {
                 </div>
             </Marquee>
 
-            <div className="flex flex-col items-center justify-start py-[90px] sm:py-[60px] sm:px-[16px]">
+            <div className="bg-[#000] flex flex-col items-center justify-start py-[90px] sm:py-[60px] sm:px-[16px]">
                 
                 <div className="flex flex-col items-center max-w-[620px] w-full">
                     <span className="mb-[48px] text-[44px] font-semibold uppercase text-white sm:text-[32px] mb-[32px]">Tokenomic</span> 
