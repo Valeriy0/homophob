@@ -15,13 +15,13 @@ span {
 }
 
 .main {
-  background-image: url('../public/desktop.webp');
+  background-image: url('../public/img/desktop.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   @media all and (max-width: 767px) {
-    background-image: url('../public/mobile.webp');
+    background-image: url('../public/img/mobile.webp');
   }
 }
 
