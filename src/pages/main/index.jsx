@@ -26,13 +26,13 @@ export const Main = () => {
 
       const tokenInfo = [
         {
-            title: 'Contact Address',
+            title: 'Contract Address',
             value: '0',
             isCopied: true,
         },
         {
             title: 'Total Supply',
-            value: '0'
+            value: '1 billion'
         },
         {
             title: 'TAX',
