@@ -81,7 +81,7 @@ export const Main = () => {
                 {renderSocial('bottom-[40px]')}
             </div>
 
-            <Marquee className="!flex h-[100px] bg-[#000]" gradient gradientColor="#000" gradientWidth={50} autoFill>
+            <Marquee className="!flex h-[100px] bg-[#000] border border-solid border-l-transparent border-r-transparent border-white" gradient gradientColor="#000" gradientWidth={50} autoFill>
                 <div className="flex space-x-[24px] items-center uppercase text-[32px] text-white mx-[12px] sm:text-[19.5px]">
                     <div className="flex space-x-[24px] items-center ">
                         <img className="h-[74px] rounded-full" src="/img/solana.webp" alt="" />
