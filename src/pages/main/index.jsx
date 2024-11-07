@@ -26,7 +26,7 @@ export const Main = () => {
       const tokenInfo = [
         {
             title: 'Contract Address',
-            value: '0',
+            value: 'A3x1P4asSmFP9tZE6AENiFrzSV3yqTe9b5drsHSpump',
             isCopied: true,
         },
         {
