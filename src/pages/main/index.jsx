@@ -3,7 +3,7 @@ import copyToClipBoard from 'copy-to-clipboard';
 import Marquee from 'react-fast-marquee';
 
 export const Main = () => {
-    const buyLink = 'https://pump.fun/A3x1P4asSmFP9tZE6AENiFrzSV3yqTe9b5drsHSpump';
+    const buyLink = 'https://dexscreener.com/solana/AJwnhC8U6ekksdBZu9LnPx4zgQzUGgqWa6zitr6WXLer';
 
     const socials = [
         {
