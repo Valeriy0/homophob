@@ -124,7 +124,7 @@ export const Main = () => {
             <div className="bg-white min-h-[392px] sm:min-h-[250px] flex items-center justify-center w-full pt-[28px] pb-[72px] sm:pb-[39px]">
                 <div className="max-w-[575px] uppercase text-center w-full flex flex-col items-center justify-center">
                     <span className="text-[36px] leading-[44px] font-semibold text-[#0F1419] mb-[16px] sm:text-[16px] sm:leading-[18px]">Want a pro launch <br/> on pumpfun?</span>
-                    <span className="text-[#000] text-[24px] leading-[28px] font-medium text-center mb-[35px] sm:txet-[14px] sm:leading-[20px]">Use <span className="text-[#F46F51] text-italic"><a href="rocketlauncher.gg" target="_blank">rocketlauncher.gg</a></span> and get 50% off on your first launch with my promo code</span>
+                    <span className="text-[#000] text-[24px] leading-[28px] font-medium text-center mb-[35px] sm:txet-[14px] sm:leading-[20px]">Use <span className="text-[#F46F51] text-italic"><a href="https://rocketlauncher.gg" target="_blank">rocketlauncher.gg</a></span> and get 50% off on your first launch with my promo code</span>
                     <div className="relative w-fit">
                         <img className="absolute left-[-15%] bottom-[0px] h-[55px] sm:h-[22px]" src="/img/bundler.webp" alt="" />
                         <div onClick={() => copyToClipBoard('8H66J2DL')} className="cursor-pointer text-[80px] font-bold text-[#000] leading-[97px] sm:text-[32px] sm:leading-[40px]">8H66J2DL</div>
