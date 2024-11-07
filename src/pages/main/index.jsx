@@ -3,9 +3,7 @@ import copyToClipBoard from 'copy-to-clipboard';
 import Marquee from 'react-fast-marquee';
 
 export const Main = () => {
-    console.log('MAKE SOLANA GREAT AGAIN! TRUMP WIN!')
-
-    const buyLink = 'https://raydium.io/swap/?outputCurrency=s9dBr5LK2QAHxEQgYaciWxqbdtAy2rbLRHv3xWhpump&inputMint=sol&outputMint=s9dBr5LK2QAHxEQgYaciWxqbdtAy2rbLRHv3xWhpump';
+    const buyLink = 'https://pump.fun/A3x1P4asSmFP9tZE6AENiFrzSV3yqTe9b5drsHSpump';
 
     const socials = [
         {
